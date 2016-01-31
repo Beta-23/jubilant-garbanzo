@@ -22,8 +22,8 @@ function createElement () {
 function catchelement(event){
      //var count;
 	event.preventDefault();
-    distance = $('#id').value; //trying to jquery getElementByID//not working//
-     // distance = document.getElementById("comment").value;
+    // distance = $('#id').value; //trying to jquery getElementByID//not working//
+     distance = document.getElementById("comment").value;
      createElement();
      //localStorage.setItem('input' + count, input); count++;//console error, trying to define count//
      

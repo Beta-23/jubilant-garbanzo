@@ -28,10 +28,11 @@ width: 300px;
 
 h1 {
 
-  color: white;
+  color: #DFF0D8;
+  
 }
 body {
-  background-image: url(./cos2.jpg);
+  background-image: url(./coffee.jpg);
   background-size: cover;
   font-family: sans-serif;
   font-size: 20px;
@@ -51,12 +52,13 @@ ul {
   list-style-type: none;
   color: white
 
+
   }
-  
+ 
 }
   li{
-
-
+  
+  background: linear-gradient(to left, rgba(255,0,0,0), #8A633B);
     display: inline-block
     position: relative
     text-align: center

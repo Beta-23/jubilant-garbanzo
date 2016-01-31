@@ -25,7 +25,7 @@
 	<div id="searchwrap class="container-fluid"">
     <li id="search">
        <form id="search-form" name="search" action="/products" method="get">
-        <input id="search-input" name="search" type="text">
+        <input id="search-input" name="search" type="text" placeholder= "Search Blog">
         <input type="submit" class="button-search" value="search" />
 
       </form>
@@ -35,7 +35,6 @@
 </header>
 
 
-
 <body>
 <div class="container">
 
@@ -43,8 +42,9 @@
 	
 </div>
 
-<ul id="Post-ul">
+<ul id="Post-ul" style="background: linear-gradient(to left, rgba(255,0,0,0), #8A633B);">
   <li id="Post-list">
+
  <li>
 
  <p>Coffee. It's so Good. #ZOMG</p>
@@ -57,15 +57,17 @@
   <li> 
 	<p>My fake plants died because I did not pretend to water them. -Mitch Hedberg</p>
 </li>
-  
-  <form method="POST">
-  	
+
+</ul>
+<br>
+<br>
+<br>
+<form method="POST">  
   <textarea type="text" placeholder= "Please Comment!" id="comment"></textarea><br>
   <button type="submit" id="invia">Submit</button>
   </form>
-  <br>
-</ul>
-
+<br>
+<br>
 <button type="button">Prev</button>
 <button type="button">Next</button>
 </body>
