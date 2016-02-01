@@ -7,7 +7,8 @@ window.onload = function() {
     console.log("linked");
     // document.getElementById("contribute").addEventListener("submit", catchelement); ///<--this code line is without jQuery//
     //Below using jQuery//
-    $("#contribute").on("submit", catchelement); 
+    $("#contribute").on("submit", catchelement);
+    // grabStorage();
 };
 
 function createElement () {
@@ -32,7 +33,14 @@ function catchelement(event){
      createElement();
      console.log(this);
      this.reset();
-     // localStorage.setItem('catchelement' + count, catchelement); count++;//console error, trying to define count//
+     var thisKey = "blog" + localStorage.length;
+     localStorage.setItem(thisKey, distance);//console error, trying to define count//
      
-	}
-    
+	
+     }
+     
+    // function grabStorage(){
+        // for (var key in localStorage){
+        //     createElement(localStorage.getItem(key));
+        // }
+   
