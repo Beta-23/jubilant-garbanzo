@@ -24,7 +24,7 @@ function createElement () {
 
 function catchelement(event){
      console.log(this);
-     //var count;
+     // var count;
 	event.preventDefault();
     // No jQuery--> distance = document.getElementById("comment").value;//
      //using jQuery//
@@ -32,6 +32,7 @@ function catchelement(event){
      createElement();
      console.log(this);
      this.reset();
-     //localStorage.setItem('input' + count, input); count++;//console error, trying to define count//
+     // localStorage.setItem('catchelement' + count, catchelement); count++;//console error, trying to define count//
      
 	}
+    
